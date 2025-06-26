@@ -116,10 +116,5 @@ Automating vulnerability scans with Python
 Hands-on with SQLi and XSS
 
 
-
 OUTPUT:
-
-![Image](https://github.com/user-attachments/assets/1fc4f724-2dac-4d4a-abf0-8a3b372761e2)
-
-----
 
