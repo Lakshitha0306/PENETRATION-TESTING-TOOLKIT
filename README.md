@@ -48,5 +48,9 @@ Task 3/ ├── main.py               → Main menu program ├── modules/
 
 python main.py
 
+OUTPUT:
+
+![Image](https://github.com/user-attachments/assets/1fc4f724-2dac-4d4a-abf0-8a3b372761e2)
+
 ----
 
