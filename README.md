@@ -12,110 +12,118 @@ DURATION : 4 WEEKS
 
 MENTOR : NEELA SANTOSH
 
-## 📌 Internship Task 1 — Web Vulnerability Scanner  
-*Domain:* Cyber Security  
-*Task:* Detect common web application vulnerabilities using Python  
-*Created by:* Lakshitha R  
-*Submitted for:* CodTech IT Internship – Task 1  
+---
+
+🔍 Web Application Vulnerability Scanner
+
+📝 Internship Task 2 – CodTech IT Internship
+
+👩‍💻 Created by: Lakshitha R
+🛡 Domain: Cyber Security
+📌 Task: Develop a Python-based tool to identify common web vulnerabilities like SQL Injection and XSS
+
 
 ---
 
-## 📁 About the Project
+📖 About the Project
 
-This is a simple Python-based tool that scans websites for two of the most common web vulnerabilities:
+This project is a simple vulnerability scanner built in Python. It focuses on detecting two major types of web application vulnerabilities:
 
-- ✅ *SQL Injection*
-- ✅ *Cross-Site Scripting (XSS)*
+🐞 SQL Injection (SQLi)
 
-The tool uses the requests and BeautifulSoup libraries to:
-- Detect and extract all HTML forms
-- Auto-fill the forms with test payloads
-- Submit them
-- Analyze the response to check for signs of vulnerabilities
+💥 Cross-Site Scripting (XSS)
 
----
 
-## 🧠 Key Features
+The tool analyzes HTML forms, injects test payloads, and observes the response to identify potential risks.
 
-- 🔍 Finds and tests all input forms in the given URL
-- 📥 Submits test payloads to simulate real-world attacks
-- 🚨 Alerts if SQLi or XSS vulnerabilities are detected
-- ⚙ Works on HTTP GET and POST methods
 
 ---
 
-## 🔧 Technologies Used
+✨ Features
 
-| Tool/Library     | Purpose                     |
-|------------------|-----------------------------|
-| Python 3.x       | Programming language         |
-| requests       | Sending HTTP requests        |
-| BeautifulSoup4 | Parsing and extracting HTML  |
+🔎 Finds all input forms on a webpage
+
+🧪 Fills and submits forms with test payloads
+
+🚨 Detects SQL Injection and XSS vulnerabilities
+
+⚙ Supports both GET and POST methods
+
+
 
 ---
 
-## ▶ How to Run the Program
+🛠 Tools and Libraries Used
 
-### 1. ✅ Install Required Libraries
-Make sure you have Python 3 installed, then run:
-```bash
-pip install requests beautifulsoup4
+🐍 Python 3
 
-2. 📁 Save the Python Script
+🌐 Requests
 
-Save the script as scanner.py.
+🧼 BeautifulSoup (bs4)
 
-3. 🚀 Run the Script
 
-python scanner.py
 
-4. 🌐 Enter Target URL
+---
 
-Example:
+📋 How to Use
+
+1. ✅ Ensure Python 3 is installed on your system
+
+
+2. 📦 Install required libraries: requests and beautifulsoup4
+
+
+3. 💾 Save the script as scanner.py
+
+
+4. 🖥 Run the script in terminal or PowerShell
+
+
+5. 🌐 Enter the target URL when asked
+
+
+
+👉 Use only legal testing websites such as:
 
 http://testphp.vulnweb.com
 
-> ⚠ Test only on legal targets!
-Use websites like http://testphp.vulnweb.com or http://demo.testfire.net which are intentionally made for testing.
-
-
-
-
----
-
-📌 Sample Payloads Used
-
-Vulnerability	Payload
-
-SQL Injection	' OR '1'='1
-XSS	<script>alert('XSS')</script>
+http://demo.testfire.net
 
 
 
 ---
 
-🧾 Output Example
+🧪 Sample Payloads Used
 
-🔍 Scanning for SQL Injection...
-[+] SQL Injection vulnerability found!
+🐛 SQL Injection: ' OR '1'='1
 
-🔍 Scanning for XSS...
-[-] No XSS vulnerability found.
+⚠ XSS: <script>alert('XSS')</script>
+
+
+
+---
+
+🧾 Sample Output
+
+🔎 Scanning for SQL Injection...
+✅ SQL Injection vulnerability found!
+
+🔎 Scanning for XSS...
+❌ No XSS vulnerability found.
+
 
 
 ---
 
 📚 What I Learned
 
-How input forms work in web apps
+🧠 Basics of ethical hacking and vulnerability testing
 
-Basic ethical hacking and security testing
+🧰 How forms and payloads work in real-world websites
 
-Automating vulnerability scans with Python
+🧵 Python automation with requests and BeautifulSoup
 
-Hands-on with SQLi and XSS
+🔐 The importance of secure coding in web applications
 
-
+------
 OUTPUT:
-
-![Image](https://github.com/user-attachments/assets/1fc4f724-2dac-4d4a-abf0-8a3b372761e2)
