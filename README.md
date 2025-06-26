@@ -1,3 +1,18 @@
+
+
+COMPANY : CODTECH IT SOLUTIONS
+
+NAME : LAKSHITHA R
+
+INTERN ID : CITSOD467
+
+DOMAIN : CYBER SECURITY AND ETHICAL HACKING
+
+DURATION : 4 WEEKS
+
+MENTOR : NEELA SANTOSH
+-------------
+
 # Task 3 – Penetration Testing Toolkit
 
 ## 🔍 Description
