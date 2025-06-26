@@ -1,5 +1,4 @@
-README
-🛡 PENETRATION TESTING TOOLKIT
+# 🛡 PENETRATION TESTING TOOLKIT
 
 COMPANY : CODTECH IT SOLUTIONS
 
@@ -48,12 +47,5 @@ Task 3/ ├── main.py               → Main menu program ├── modules/
 
 python main.py
 
----
-
-## 👩‍💻 Created by
-*Lakshitha R*  
-Cyber Security Intern – CodTech IT solutions  
-Task 3: Penetration Testing Toolkit
-
----
+----
 
