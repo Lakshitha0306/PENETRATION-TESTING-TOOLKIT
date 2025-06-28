@@ -60,3 +60,4 @@ python main.py
 
 OUTPUT:
 
+![Image](https://github.com/user-attachments/assets/733cab3c-1a23-42c6-a807-d8a61072bc7b)
