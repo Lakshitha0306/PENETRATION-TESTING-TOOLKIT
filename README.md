@@ -61,3 +61,5 @@ python main.py
 OUTPUT:
 
 ![Image](https://github.com/user-attachments/assets/733cab3c-1a23-42c6-a807-d8a61072bc7b)
+
+![Image](https://github.com/user-attachments/assets/96ce8c39-a400-43dd-953e-1e9bffae7fed)
