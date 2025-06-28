@@ -1,4 +1,4 @@
-# 🔒 Web Application Vulnerability Scanner
+# 🔒 Penetration Testing Toolkit
 
 COMPANY : CODTECH IT SOLUTIONS
 
@@ -14,117 +14,49 @@ MENTOR : NEELA SANTOSH
 
 ---
 
-🔍 Web Application Vulnerability Scanner
+🔍 Penetration Testing Toolkit
 
-📝 Internship Task 2 – CodTech IT Internship
+📝 Internship Task 3 – CodTech IT Solutions Internship
 
 👩‍💻 Created by: Lakshitha R
 🛡 Domain: Cyber Security
-📌 Task: Develop a Python-based tool to identify common web vulnerabilities like SQL Injection and XSS
 
+# Task 3 – Penetration Testing Toolkit
 
----
-
-📖 About the Project
-
-This project is a simple vulnerability scanner built in Python. It focuses on detecting two major types of web application vulnerabilities:
-
-🐞 SQL Injection (SQLi)
-
-💥 Cross-Site Scripting (XSS)
-
-
-The tool analyzes HTML forms, injects test payloads, and observes the response to identify potential risks.
-
+## 🔍 Description
+This is a Python-based Penetration Testing Toolkit created during my internship at *CodTech IT* in the Cyber Security domain.  
+It includes basic modules to simulate penetration testing techniques.
 
 ---
 
-✨ Features
+## 🧰 Features
 
-🔎 Finds all input forms on a webpage
+1. *Port Scanner*
+   - Scans common ports on a given IP address.
+   - Shows which ports are open or closed.
 
-🧪 Fills and submits forms with test payloads
-
-🚨 Detects SQL Injection and XSS vulnerabilities
-
-⚙ Supports both GET and POST methods
-
-
+2. *Brute Forcer (Demo)*
+   - Simulates password brute-force using a list of common passwords.
+   - Finds the correct password from the list for demonstration purposes.
 
 ---
 
-🛠 Tools and Libraries Used
+## 📁 Files and Folders
 
-🐍 Python 3
-
-🌐 Requests
-
-🧼 BeautifulSoup (bs4)
-
-
+Task 3/ ├── main.py               → Main menu program ├── modules/ │   ├── port_scanner.py   → Port scanning logic │   └── brute_forcer.py   → Brute-force demo ├── README.md             → This documentation file
 
 ---
 
-📋 How to Use
+## 🚀 How to Run
 
-1. ✅ Ensure Python 3 is installed on your system
+1. Open terminal or command prompt.
+2. Navigate to the Task 3 folder.
+3. Run the tool:
 
-
-2. 📦 Install required libraries: requests and beautifulsoup4
-
-
-3. 💾 Save the script as scanner.py
-
-
-4. 🖥 Run the script in terminal or PowerShell
-
-
-5. 🌐 Enter the target URL when asked
-
-
-
-👉 Use only legal testing websites such as:
-
-http://testphp.vulnweb.com
-
-http://demo.testfire.net
-
-
+python main.py
 
 ---
 
-🧪 Sample Payloads Used
 
-🐛 SQL Injection: ' OR '1'='1
-
-⚠ XSS: <script>alert('XSS')</script>
-
-
-
----
-
-🧾 Sample Output
-
-🔎 Scanning for SQL Injection...
-✅ SQL Injection vulnerability found!
-
-🔎 Scanning for XSS...
-❌ No XSS vulnerability found.
-
-
-
----
-
-📚 What I Learned
-
-🧠 Basics of ethical hacking and vulnerability testing
-
-🧰 How forms and payloads work in real-world websites
-
-🧵 Python automation with requests and BeautifulSoup
-
-🔐 The importance of secure coding in web applications
-
-------
 OUTPUT:
-![Image](https://github.com/user-attachments/assets/1fc4f724-2dac-4d4a-abf0-8a3b372761e2)
+
